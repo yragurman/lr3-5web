@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- UUID library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <img class="Logo" src="image/IMDB_Logo.svg" alt="Logo">
+        <a>My Films</a>
+        <a href="create_page.html">Add Film</a>
+        <input id="find_input" class="header_Search_type" type="text" placeholder="Search..">
+        <button id="find_button" class="header__button_Search">Search</button>
+        <button id="Clear_button" class="header__button_Clear">Clear</button>
+    </header>
+    <main>
+        <aside>
+            <p class="aside__manage">Manage Films</p>
+            <div class="manage__sort">
+                <p class="manage__sort__txt">Sort by the most<br> reviewd films</p>
+                <div class="manage__sort__switch">
+                    <input type="checkbox" id="sort_button">
+                </div>
+            </div>
+            <p class="Count">Viewing time of all films counter</p>
+            <button class="Count__button" id="Count__button">Count</button>
+            <div class="result_total_reviews">
+                <p class="Total__reviews">Total time:</p>
+                <p id="Total__reviews" class="number_of_total_reviews">Empty please click count:(</p>
+            </div>
+            <div class="Edit">
+                <h2>Edit Film</h2>
+                <h3>Title</h3>
+                <input id="Title" class="Add_Film__Title" type="text" placeholder="Name film...">
+                <h3>Description</h3>
+                <input id="Description" class="Add_Film__Description" type="text" placeholder="Enter text...">
+                <h3>Duration movie</h3>
+                <input type="number" id="Time" class="Add_Film__Time" type="text" placeholder="In minutes...">
+                <h3>Reviews</h3>
+                <input type="number" id="Reviews" class="Add_Film__Reviews" type="text" placeholder="Number...">
+            </div>
+        </aside>
+        <section class="Films">
+            <ul id="items_container"></ul>
+        </section>
+    </main>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

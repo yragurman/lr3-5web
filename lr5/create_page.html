@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- UUID library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+</head>
+
+<body>
+    <header class="header_create_page_navbar">
+        <img class="Logo" src="image/IMDB_Logo.svg" alt="Logo">
+        <a class="Main_page_return_from_create_page" href="index.html">My Films</a>
+    </header>
+    <section class=Add_Film>
+        <h2>Add Film</h2>
+        <h3>Title</h3>
+        <input id="Title" class="Add_Film__Title" type="text" placeholder="Name film...">
+        <h3>Description</h3>
+        <input id="Description" class="Add_Film__Description" type="text" placeholder="Enter text...">
+        <h3>Duration movie</h3>
+        <input type="number" id="Time" class="Add_Film__Time" type="text" placeholder="In minutes...">
+        <h3>Reviews</h3>
+        <input type="number" id="Reviews" class="Add_Film__Reviews" type="text" placeholder="Number...">
+        <button id="Button__Submit" class="Add__Film__Button__Submit">Submit</button>
+    </section>
+    <script type="module" src="js/create.js"></script>
+</body>
+
+</html>

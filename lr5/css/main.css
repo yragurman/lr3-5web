@@ -1,0 +1,126 @@
+/* aside */
+
+main {
+    display: flex;
+}
+
+aside {
+    margin-left: 5%;
+    border-right: 2px solid black;
+    width: 15rem;
+    height: 100vh;
+}
+
+.manage__sort {
+    width: 14rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    width: 2rem;
+    height: 1rem;
+    -webkit-appearance: none;
+    outline: none;
+    background: black;
+    border-radius: 20px;
+    transition: .3s;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+}
+
+input:checked[type="checkbox"] {
+    background: yellow
+}
+
+input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transition: .3s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+input:checked[type="checkbox"]:before {
+    left: 50%;
+}
+
+.manage__sort__txt {
+    margin-right: 20%;
+}
+
+.Count__button {
+    margin-left: 20%;
+}
+
+
+/* Films */
+
+ul {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6rem;
+}
+
+li {
+    display: flex;
+    height: 10%;
+    border: 2px solid gray;
+    margin-bottom: 2rem;
+}
+
+.Image__film {
+    width: inherit;
+    height: 10rem;
+}
+
+.films__txt {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.Content__films {
+    display: flex;
+    flex-direction: column;
+}
+
+.Buttons__film {
+    align-self: flex-end;
+    margin-right: 1rem;
+    margin-top: 10%;
+}
+
+.Films__info {
+    display: flex;
+    margin-left: 5%;
+}
+
+.Film__duration {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.Films_reviews {
+    margin-left: 2%;
+}
+
+.result_total_reviews {
+    display: flex;
+}
+
+.number_of_total_reviews {
+    margin-left: 1em;
+}
+
+.Total__reviews {
+    white-space: nowrap;
+}

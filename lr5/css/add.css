@@ -1,0 +1,43 @@
+.Add_Film {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.Add_Film__Description {
+    display: flex;
+    height: 200px;
+    size: 100%;
+}
+
+.Add__Film__Button__Submit {
+    margin-top: 2rem;
+}
+
+.header_create_page_navbar {
+    display: flex;
+    justify-content: unset;
+}
+
+.Main_page_return_from_create_page {
+    margin-left: 1em;
+}
+
+.items_container__card-body {
+    margin-left: 0.625em;
+}
+
+.items_container__card-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em;
+}
+
+.Remove_button {
+    margin-bottom: 1em;
+}
+
+.Add_Film__Reviews {
+    margin-bottom: 1em;
+}
