@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    height: 6.25rem;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px;
+    background-color: black;
+}
+
+.Logo {
+    height: 30%;
+    margin-left: 3.125rem;
+}
+
+.nav {
+    display: flex;
+}
+
+.header_Search_type {
+    margin-left: 20%;
+    border-radius: 0.625rem;
+    padding-left: 0.625rem;
+}
+
+.header__button_Clear {
+    margin-right: 5%;
+    color: white;
+}
+
+.header__button_Search {
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+}
