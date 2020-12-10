@@ -1,9 +1,6 @@
 import {
     postFilm
 } from "./api.js";
-import {
-    validateCreate
-} from "./validation.js";
 const TitleInput = document.getElementById("Title");
 const DescriptionInput = document.getElementById("Description");
 const TimeInput = document.getElementById("Time");

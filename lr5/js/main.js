@@ -85,15 +85,8 @@ sortButton.addEventListener("change", function() {
     }
 });
 //sum function
-function duration(item) {
-    return item.duration;
-}
-
-function sum(prev, next) {
-    return prev + next;
-}
 countButton.addEventListener("click", () => {
-    const SumReview = films.map(duration).reduce(sum);
+    const SumReview = films.reduce(((sum, films) => sum + films.duration), 0);
     sumOut.innerHTML = `${SumReview} minutes`;
 });
 
